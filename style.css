@@ -56,6 +56,7 @@ header{
     color: black;   
     display: block;
     font-size: 1.5em;
+    transition: all 1s;
   
 
 }
@@ -111,13 +112,22 @@ footer {
     padding-bottom: 8%;
     height: 25%;
     width: 100%;
+    
        
 }
+
 
 footer li {
     list-style-type: none;
     display: inline-block;
     margin-left: 20px;    
+}
+footer img {
+    transition: all 1s;
+    
+}
+footer img:hover {
+    transform: scale(1.5);
 }
 
 .logos {
@@ -148,6 +158,10 @@ footer li {
 
 .mainindex section img {
     width: 100%;
+    transition: all 1s;
+}
+.mainindex section img:hover {
+    transform: scale(1.05);
 }
 
 .publi-index {
