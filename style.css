@@ -1,0 +1,488 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+body {
+    
+    background-color: #EBE3E0;   
+    
+}
+
+
+/* Inicio Header */
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    background-image: url(./multimedia/images/headernuevo2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 30%;
+  
+    
+
+}
+/*Menu navegable*/
+
+.menusuperior {
+
+    
+    
+    
+    list-style-type: none;
+    font-family: 'Macondo', cursive;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: center;
+    
+    
+    
+} 
+.menusuperior li  {
+    margin-top: 7%;
+    display: inline-block;
+    width: 16%;
+   
+    
+    
+      
+    
+}
+.menusuperior a {
+    
+    background-color: rgba(197, 199, 209, 0.655);    
+    padding: 10px;
+    color: black;   
+    display: block;
+    font-size: 1.5em;
+  
+
+}
+
+.menusuperior a:hover {
+    background-color: #F0C62F;
+}
+/*Fin menu navegable*/
+
+
+/* Tipografias */ 
+  
+
+h1 {
+    text-align: center;
+    font-family: 'Macondo', cursive;
+    
+}
+
+
+
+h2 {
+    text-align: center;
+    font-family: 'Macondo', cursive;
+    
+}
+
+h3 {
+    font-family: 'Macondo', cursive;
+
+}
+
+h4 {
+    font-size: 1.5em;
+    font-family: 'Macondo', cursive;
+}
+
+p {
+    font-family: 'Macondo', cursive;
+}
+
+/* Fin Tipografias */
+
+
+
+
+/*Footer*/
+
+footer {
+    background-image: url(./multimedia/images/footernuevo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 8%;
+    height: 25%;
+    width: 100%;
+       
+}
+
+footer li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;    
+}
+
+.logos {
+    width: 50px ;
+    margin: 2px;   
+}
+
+/*Fin Footer*/
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*Inicio Index*/
+
+
+
+.mainindex {
+    margin-top: 14%;
+    margin-left: 5%;
+    margin-right: 5%; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(100px * 3) ;    
+    gap: 5%
+    
+}
+
+
+
+.mainindex section img {
+    width: 100%;
+}
+
+.publi-index {
+    margin-left: 15%;
+    margin-right: 15%; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15%;
+    margin-top: 10%;
+
+}
+
+ 
+
+#tribuafrica {
+    background-image: url(./publicaciones/tribuafrica/multimedia/images/tribuafrica.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#tribuafrica a {
+    color: black;
+    text-decoration: none;
+    
+}
+
+#glandulatimo {
+    background-image: url(./multimedia/images/publicacion1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#glandulatimo a {
+    color: #EBE3E0;
+    text-decoration: none;
+}
+
+/*Fin Index*/
+
+/* Acerca de Mi */
+
+.main-acercademi {
+    margin-top: 14%;
+}
+
+.main-acercademi {
+    
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 60px 1fr;
+    grid-template-areas: 
+        'tituloadm tituloadm'
+        'textodemi imagendemi'
+        
+
+    ;  
+}
+
+.main-acercademi .titulo {
+    grid-area: tituloadm;
+}
+
+.main-acercademi .acercademi {
+    grid-area: textodemi;
+    
+}
+
+.main-acercademi .imagendemi {
+    grid-area: imagendemi;
+
+}
+.imagendemi img {
+    width: 100%;
+}
+/*Fin Acerca de Mi*/
+/*-----------------------------------------------------------------------------------------------------*/
+/*Galeria*/
+
+.main-galeria {
+    margin-top: 14%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 550px);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+
+}
+
+.item-galeria img {
+    width: 100%;
+}
+/*Fin Galeria*/
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*Calendario*/
+
+
+.main-calendario {
+    margin-top: 14%;    
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 60px 50px 1fr 50px 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    grid-template-areas:
+        'titulo titulo'
+        'evento1 fecha1'
+        'description1 imagen1'
+        'evento2 fecha2'
+        'description2 imagen2'
+    ;
+}
+
+.main-calendario .titulo {
+    grid-area: titulo;
+    
+
+}
+.main-calendario .evento1 {
+    grid-area: evento1;
+    
+
+}
+.main-calendario .evento1 h2 {
+    display: flex;
+    justify-content: left;
+
+}
+.main-calendario .fecha1 {
+    grid-area: fecha1;
+    
+
+}
+.main-calendario .imgevento1 {
+    grid-area: imagen1;
+    
+
+}
+.main-calendario .imgevento1 img {
+    width: 100%;
+    
+}
+.main-calendario .description1 {
+    grid-area: description1;
+
+}
+
+/*Inicio Evneto 2*/
+
+.main-calendario .evento2 {
+    grid-area: evento2;
+    
+
+}
+.main-calendario .evento2 h2 {
+    display: flex;
+    justify-content: left;
+
+}
+.main-calendario .fecha2 {
+    grid-area: fecha2;
+    
+
+}
+.main-calendario .imgevento2 {
+    grid-area: imagen2;
+    
+
+}
+.main-calendario .imgevento2 img {
+    width: 100%;
+    
+}
+.main-calendario .description2 {
+    grid-area: description2;
+
+}
+/*Fin Calendario*/
+/*---------------------------------------------------------------------------------------------------------*/
+
+/*Incio Menu Publicaciones*/
+.publicaciones {
+    margin-top: 14%;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 100px 2fr 1fr;
+    grid-gap: 15px;
+    grid-template-areas: 
+        'titulo titulo'
+        'publi1 publi1'
+        'publi2 publi3'    
+    ;
+    list-style-type: none;
+    font-family: 'Macondo', cursive;
+    text-decoration: none;
+    font-size: 2em;
+    text-align: center;
+   
+    
+
+}
+
+
+.publicaciones .titulo {
+    grid-area: titulo;
+
+}
+.publicaciones .publicacion1 {
+    grid-area: publi1;
+    background-image: url(./multimedia/images/publicacion1.jpg);
+    background-size: cover;
+    color: #F0C62F;
+    
+   
+    padding: 15%;
+
+    
+
+}
+.publicaciones .publicacion2 {
+    grid-area: publi2;
+    background-image: url(./publicaciones/tribuafrica/multimedia/images/tribuafrica.jpg);
+    background-size: cover;
+    color: #F0C62F;
+    
+    padding: 15%;
+    
+    
+
+
+}
+.publicaciones .publicacion3 {
+    grid-area: publi3;
+    background-image: url(./publicaciones/nuevoserhumano/Multimedia/images/nuevoserhumano.png);
+    background-size: cover;
+    color: #F0C62F;
+    
+    padding: 15%;
+    
+    
+
+
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+/*Contacto*/
+
+.main-contacto {
+    margin-top: 14%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 60px 60px 60px 450px;
+    grid-gap: 15px;
+    grid-template-areas: 
+        'titulo titulo'
+        'mail form1'
+        'whatsapp form2'
+        'ubicacion form3'
+        'iframe form4'    
+    ;
+}
+.main-contacto .contacto {
+    grid-area: titulo;
+
+}
+
+.main-contacto .mail {
+    grid-area: mail;
+
+}
+.main-contacto .whatsapp {
+    grid-area: whatsapp;
+
+}
+.main-contacto .ubicacion {
+    grid-area: ubicacion;
+
+}
+.main-contacto .iframe-ubicacion {
+    grid-area: iframe;
+
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+/*Publicaciones*/
+
+.main-publicacion  {
+    margin-top: 14%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 300px 1fr;
+    grid-template-areas: 
+        'titulo'
+        'imagen'
+        'texto'
+    ;
+
+
+}
+.main-publicacion .titulo-publi {
+    grid-area: titulo;
+
+    
+}
+.main-publicacion .texto-publi {
+    grid-area: texto;
+
+    
+}
+.main-publicacion .img-publi {
+    grid-area: imagen;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
