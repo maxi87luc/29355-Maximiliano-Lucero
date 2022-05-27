@@ -5,58 +5,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabinete Iluminado - Bernardita Posse</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
     <!-- Header  -->
     <header>
-        
-        
-        <nav class="navbar">
-
-            <ul class="menusuperior">
-                <li> <a href="index.html">Inicio</a></li>
-                <li> <a href="calendario.html">Calendario</a></li>    
-                <li> <a href="galeria.html">Galeria</a></li>    
-                <li> <a href="publicaciones.html">Publicaciones</a></li>
-                <li> <a href="acercademi.html">Acerca de mi</a> </li>
-                <li> <a href="contacto.html">Contacto</a></li>
-            </ul>
-
+        <nav>
+        <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="calendario.html">Calendario</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="publicaciones.html">Publicaciones</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="acercademi.html">Acerca de Mi</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+        </ul>
         </nav>
     </header>
     <!-- Fin Header -->
 
-    <main class="mainindex">
+    <main class="main container d-grid gap-5">
+        <section class="row">
+            <div class="col-md-2"></div>
+          
+            <div id="carouselExampleFade" class="carousel slide carousel-fade col-md-8 col-sm-12" data-bs-ride="carousel">
+                <div class="carousel-inner">
 
-        <section    class="carrousel">   <!-- Carrousel de Imagenes -->    
-       
-                      
-            <img src="./multimedia/images/producto4.jpg" alt="Imagen del Gabinete 2">
+                    <div class="carousel-item active">
+                        <img src="multimedia/images/gabinete1.jpeg" class="d-block w-100" alt="foto del gabinete">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="multimedia/images/gabinete2.jpeg" class="d-block w-100" alt="foto del gabinete">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="eventos/eventospasados/multimedia/images/evento1.jpeg" class="d-block w-100" alt="foto de evento pasado">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="eventos/eventospasados/multimedia/images/evento2.jpeg" class="d-block w-100" alt="foto de evento pasado">
+                    </div>
+                    
+                </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
             
+            </div>
+            <div class="col-md-2"></div>
         </section>
-
-        <section class="carrousel">
-            <img src="./multimedia/images/producto5.jpg" alt="Imagen de sesion en proceso 2">
-        </section>
-
+        
 
         <!-- Fin Carrousel de Imagenes -->
         
 
-        <section>  <!--En esta seccion va una playlist y un iframe de youtube-->
+        <section class="row">  <!--En esta seccion va una playlist y un iframe de youtube-->
 
-            <article>
+            <article class="col-sm-12 col-md-6">
                 <h2>MEDITACIONES GUIADAS</h2>
            
                 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWZKyP0tcxlDn?utm_source=generator" width="100%" height="300" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
             </article>
-        </section>
 
-        <section>
-            <article>
+            
+       
+            <article class="col-sm-12 col-md-6">
 
                 <h2>MUSICA RELAJANTE</h2>
 
@@ -65,41 +100,41 @@
             </article>
         </section>
     
-    </main>
+    
 
-    <section class="publi-index">        
-        <div  id="glandulatimo">
-            <article class="mini-publi" >
-                <a href="./publicaciones/glandulatimo/glandulatimo.html">
-                    
-                    <h2>Ejercicio para estimular el Timo
-                        <!-- En el parrafo va el primer parrafo de la publicacion -->
-                        <p>Hola a todos, les paso este pequeño ejercicio para estimular el timo. Espero que lo pongan en práctica, y que por sobre todo les traiga todos los beneficios que me trae a mi.</p>
-                        
-                    </h2>
-                </a>
-                 
+    <section class="publi-index row">
+        
+        <a class="col-sm-12 col-md-6"  href="">
+            <div class="card">
+                <img src="publicaciones/glandulatimo/multimedia/images/publicacion1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <p class="card-text">Ejercicio para estimular el Timo</p>
+
+            </div>
+          </div>
+        </a>  
+                         
         
     
-            </article>
-        </div>
-
-        <div id="tribuafrica">
-            <article class="mini-publi" >
-                <a href="./publicaciones/tribuafrica/pubtribuafrica.html">
-
-                    
-                    
-                    <h2>Existe una tribu en África, donde la fecha de nacimiento de un niño no se toma como el día en que nació, ni como el momento en que fue concebido, sino como el día en que ese niño fue "pensado" por su madre.</h2>
-                    
-                </a>
             
-          
+        
+        <a class="col-sm-12 col-md-6"  href="">
+            <div class="card">
+                <img src="publicaciones/tribuafrica/multimedia/images/tribuafrica.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <p class="card-text">Existe una tribu en África, donde la fecha de nacimiento de un niño no se toma como el día en que nació, ni como el momento en que fue concebido, sino como el día en que ese niño fue "pensado" por su madre.</p>
+
+            </div>
+          </div>
+        </a>  
+        
+
+        
     
     
-            </article>
 
         </div>
+    </main>
     </section>
     
 
@@ -128,6 +163,7 @@
     </footer>   
     
 
-
+<!-- Bootstrap Javascript-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
