@@ -5,74 +5,171 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabinete Iluminado - Bernardita Posse</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
     <!-- Header  -->
     <header>
-        
-        
-        
         <nav>
-
-            <ul class="menusuperior">
-                <li> <a href="index.html">Inicio</a></li>
-                <li> <a href="calendario.html">Calendario</a></li>    
-                <li> <a href="galeria.html">Galeria</a></li>    
-                <li> <a href="publicaciones.html">Publicaciones</a></li>
-                <li> <a href="acercademi.html">Acerca de mi</a> </li>
-                <li> <a href="contacto.html">Contacto</a></li>
-            </ul>
-
+        <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="calendario.html">Calendario</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="publicaciones.html">Publicaciones</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="acercademi.html">Acerca de Mi</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+        </ul>
         </nav>
     </header>
     <!-- Fin Header -->
 
-    <main class="main-galeria">
-        <section class="item-galeria">
-            <div>
-                <h2>Evento Pasado</h2>
-            </div>
-            <div>
-                <img src="./eventos/eventospasados/multimedia/images/evento1.jpeg" alt="Foto de un evento pasado">
-            </div>
-
-       </section>
-        <section class="item-galeria">
-            <div>
-                <h2>Evento Pasado</h2>
-            </div>
-            <div>
-                <img src="./eventos/eventospasados/multimedia/images/evento2.jpeg" alt="Foto de un evento pasado">
-            </div>
-
+    <main class="main container d-grid gap-5">
+        <section class="row">
+            <article class="col-md-6 col-sm-12">
+                <h2>Sesiones</h2>
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="multimedia/images/sesiones1.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="multimedia/images/sesiones2.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="multimedia/images/sesiones3.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="multimedia/images/sesiones4.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      
+                      
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                
+            </article>
+            <article class="col-md-6 col-sm-12">
+                <h2>Eventos y Formaciones</h2>
+                <div id="carouselExampleFade1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="multimedia/images/formaciones.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="multimedia/images/formaciones1.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item active">
+                        <img src="eventos/eventospasados/multimedia/images/evento1.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="eventos/eventospasados/multimedia/images/evento2.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade1" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade1" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                
+            </article>
         </section>
-        <section class="item-galeria">
-            <div>
+        <section class="row">
+            <article class="col-md-6 col-sm-12">
                 <h2>Gabinete</h2>
-            </div>
-            <div>
-                <img src="./multimedia/images/gabinete2.jpeg" alt="Foto del gabinete">
-            </div>
-
-        
-        </section>
-        <section class="item-galeria">
-            <div>
+                <div id="carouselExampleFade2" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="multimedia/images/gabinete1.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="multimedia/images/gabinete2.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade2" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade2" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                
+                
+            </article>
+            <article class="col-md-6 col-sm-12">
                 <h2>Productos</h2>
-            </div>
-            <div>
-                <img src="./multimedia/images/producto2.jpg" alt="Foto del gabinete">
-            </div>
+                <div id="carouselExampleFade3" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="multimedia/images/producto1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="multimedia/images/producto2.jpg" class="d-block w-100" alt="...">
+                        </div>  
+                        <div class="carousel-item active">
+                            <img src="multimedia/images/producto3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="multimedia/images/producto4.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="multimedia/images/producto5.jpg" class="d-block w-100" alt="...">
+                        </div>
+                      
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade3" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade3" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                
+
+            </article>
         </section>
- 
         
     </main>
+    </section>
+    
 
-        
+    
 
-        
     <!-- Inicio Footer -->
     <footer>
         <nav>
@@ -96,6 +193,7 @@
     </footer>   
     
 
-
+<!-- Bootstrap Javascript-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

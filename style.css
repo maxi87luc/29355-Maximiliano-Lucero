@@ -19,51 +19,38 @@ header{
     background-repeat: no-repeat;
     background-size: 100%;
     height: 30%;
+    z-index: 2;
   
     
 
 }
 /*Menu navegable*/
-
-.menusuperior {
-
-    
-    
-    
-    list-style-type: none;
-    font-family: 'Macondo', cursive;
-    text-decoration: none;
-    font-size: 1em;
-    text-align: center;
-    
-    
-    
-} 
-.menusuperior li  {
-    margin-top: 7%;
-    display: inline-block;
-    width: 16%;
-   
-    
-    
-      
-    
+.nav {
+    margin-top: 9%;
 }
-.menusuperior a {
-    
-    background-color: rgba(197, 199, 209, 0.655);    
-    padding: 10px;
-    color: black;   
-    display: block;
-    font-size: 1.5em;
+.nav-item {
+    background-color: rgba(197, 199, 209, 0.655); 
     transition: all 1s;
-  
-
+    font-size: 1.5em;
+}
+.nav-item:hover {
+        background-color: #F0C62F
+}
+.nav-link {
+    
+    font-family: 'Macondo', cursive;
+    color: black;   
+    
+    
+    transition: all 1s;
+    
+       
+    padding: 10px;
 }
 
-.menusuperior a:hover {
-    background-color: #F0C62F;
-}
+
+
+
 /*Fin menu navegable*/
 
 
@@ -120,7 +107,8 @@ footer {
 footer li {
     list-style-type: none;
     display: inline-block;
-    margin-left: 20px;    
+    margin-left: 20px;  
+    margin-top: 20px;  
 }
 footer img {
     transition: all 1s;
@@ -143,64 +131,15 @@ footer img:hover {
 
 
 
-.mainindex {
-    margin-top: 14%;
-    margin-left: 5%;
-    margin-right: 5%; 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(100px * 3) ;    
-    gap: 5%
+.main {
+    margin-top: 250px;
+    
     
 }
 
-
-
-.mainindex section img {
-    width: 100%;
-    transition: all 1s;
-}
-.mainindex section img:hover {
-    transform: scale(1.05);
-}
-
-.publi-index {
-    margin-left: 15%;
-    margin-right: 15%; 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 15%;
-    margin-top: 10%;
-
-}
-
- 
-
-#tribuafrica {
-    background-image: url(./publicaciones/tribuafrica/multimedia/images/tribuafrica.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
-
-#tribuafrica a {
-    color: black;
-    text-decoration: none;
-    
-}
-
-#glandulatimo {
-    background-image: url(./multimedia/images/publicacion1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-}
-#glandulatimo a {
-    color: #EBE3E0;
-    text-decoration: none;
-}
 
 /*Fin Index*/
+
 
 /* Acerca de Mi */
 
