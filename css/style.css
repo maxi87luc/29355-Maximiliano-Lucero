@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Macondo&display=swap");
+body {
+  background-color: #EBE3E0;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Macondo", cursive;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Macondo", cursive;
+}
+
+h3 {
+  font-family: "Macondo", cursive;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-family: "Macondo", cursive;
+}
+
+p {
+  font-family: "Macondo", cursive;
+  font-size: 1.5em;
+}
+
+footer {
+  background-image: url(../../multimedia/images/footernuevo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 8%;
+  height: 25%;
+  width: 100%;
+}
+footer li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+footer img {
+  transition: all 1s;
+}
+footer img:hover {
+  transform: scale(1.5);
+}
+
+.logos {
+  width: 50px;
+  margin: 2px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-image: url(../../multimedia/images/headernuevo2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30%;
+  z-index: 2;
+}
+
+/*Menu navegable*/
+.nav {
+  margin-top: 9%;
+}
+
+.nav-item {
+  background-color: rgba(197, 199, 209, 0.655);
+  transition: all 1s;
+  font-size: 1.5em;
+}
+.nav-item:hover {
+  background-color: #F0C62F;
+}
+
+.nav-link {
+  font-family: "Macondo", cursive;
+  color: black;
+  transition: all 1s;
+  padding: 10px;
+}
+
+.nav-sm {
+  display: none;
+  margin-top: 9%;
+}
+
+.offcanvas-body {
+  background-color: rgba(197, 199, 209, 0.655);
+}
+
+.btn-close {
+  background-color: #F0C62F;
+}
+
+.offcanvas-header {
+  background-color: #EBE3E0;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-sm {
+    display: flex;
+  }
+  .nav-md {
+    display: none;
+  }
+}
+.main {
+  margin-top: 250px;
+}
+
+#glandulatimo {
+  width: 100%;
+  background-image: url(../../publicaciones/glandulatimo/multimedia/images/publicacion1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 1s;
+}
+#glandulatimo h2 {
+  padding: 300px;
+}
+#glandulatimo:hover {
+  background-image: url(../../publicaciones/glandulatimo/multimedia/images/publicacion1-2.jpg);
+}
+
+#caminoacasa {
+  background-image: url(../../publicaciones/tribuafrica/multimedia/images/tribuafrica.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 1s;
+}
+#caminoacasa h2 {
+  padding: 140px;
+}
+#caminoacasa:hover {
+  background-image: url(../../publicaciones/tribuafrica/multimedia/images/tribuafrica1.jpg);
+}
+
+#nuevoserhumano {
+  background-image: url(../../publicaciones/nuevoserhumano/Multimedia/images/nuevoserhumano.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 1s;
+}
+#nuevoserhumano h2 {
+  padding: 150px;
+}
+#nuevoserhumano:hover {
+  background-image: url(../../publicaciones/nuevoserhumano/Multimedia/images/nuevoserhumano1.jpg);
+}
+
+/*# sourceMappingURL=style.css.map */

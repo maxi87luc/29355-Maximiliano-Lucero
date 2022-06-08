@@ -1,0 +1,29 @@
+
+
+footer {
+    background-image: url(../../multimedia/images/footernuevo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 8%;
+    height: 25%;
+    width: 100%;
+    li {
+        list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;  
+    margin-top: 20px; 
+    }
+    img {
+        transition: all 1s;
+        &:hover {
+            transform: scale(1.5);
+        }
+    }
+    
+       
+}
+
+.logos {
+    width: 50px ;
+    margin: 2px;   
+}

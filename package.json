@@ -1,0 +1,19 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxi87luc/29355-Maximiliano-Lucero.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxi87luc/29355-Maximiliano-Lucero/issues"
+  },
+  "homepage": "https://github.com/maxi87luc/29355-Maximiliano-Lucero#readme"
+}

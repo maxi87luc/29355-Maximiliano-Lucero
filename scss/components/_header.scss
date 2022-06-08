@@ -1,0 +1,69 @@
+
+@import "../base/listas" ;
+
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    background-image: url(../../multimedia/images/headernuevo2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 30%;
+    z-index: 2;
+  
+    
+
+}
+/*Menu navegable*/
+.nav {
+    margin-top: 9%;
+}
+.nav-item {
+    background-color: nth($colores, 3);
+    transition: all 1s;
+    font-size: 1.5em;
+    &:hover {
+        background-color: nth($colores, 2);
+    }
+}
+
+.nav-link {
+    
+    font-family: 'Macondo', cursive;
+    color: nth($colores, 4);   
+    
+    
+    transition: all 1s;
+    
+       
+    padding: 10px;
+}
+.nav-sm {
+    display: none;
+    margin-top: 9%;
+}
+.offcanvas-body {
+    background-color: nth($colores, 3);
+}
+.btn-close {
+    background-color: nth($colores, 2) ;
+}
+.offcanvas-header {
+    background-color: nth($colores, 1) ;
+}
+@media screen and (max-width: 768px) {
+    .nav-sm {
+        display: flex;
+    }
+    .nav-md {
+        display: none;
+    }
+    
+    
+}
+
+
+
+
