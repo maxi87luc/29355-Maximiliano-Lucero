@@ -5,19 +5,7 @@
   transition: all 1s;
 }
 
-/*
-@mixin publis($valor) {
 
-
-    border: $valor;
-    padding: $valor;
-    border-radius: $valor;
-
-}
-.adios-maria {
-    @include tiro(1px solid black)
-}
-*/
 body {
   background-color: #EBE3E0;
 }
