@@ -5,7 +5,6 @@
   transition: all 1s;
 }
 
-
 body {
   background-color: #EBE3E0;
 }
@@ -35,7 +34,7 @@ p {
 }
 
 footer {
-  background-image: url(../../multimedia/images/footernuevo.jpg);
+  background-image: url(../multimedia/images/footernuevo.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   padding-bottom: 8%;
@@ -64,7 +63,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  background-image: url("../../multimedia/images/headernuevo2.jpg");
+  background-image: url("../multimedia/images/headernuevo2.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   height: 30%;
@@ -129,33 +128,33 @@ header {
 
 #glandulatimo {
   width: 100%;
-  background-image: url(../../publicaciones/glandulatimo/multimedia/images/publicacion1.jpg);
+  background-image: url(../publicaciones/glandulatimo/multimedia/images/publicacion1.jpg);
 }
 #glandulatimo h2 {
   padding: 300px;
 }
 #glandulatimo:hover {
-  background-image: url(../../publicaciones/glandulatimo/multimedia/images/publicacion1-2.jpg);
+  background-image: url(../publicaciones/glandulatimo/multimedia/images/publicacion1-2.jpg);
 }
 
 #caminoacasa {
-  background-image: url(../../publicaciones/tribuafrica/multimedia/images/tribuafrica.jpg);
+  background-image: url(../publicaciones/tribuafrica/multimedia/images/tribuafrica.jpg);
 }
 #caminoacasa h2 {
   padding: 140px;
 }
 #caminoacasa:hover {
-  background-image: url(../../publicaciones/tribuafrica/multimedia/images/tribuafrica1.jpg);
+  background-image: url(../publicaciones/tribuafrica/multimedia/images/tribuafrica1.jpg);
 }
 
 #nuevoserhumano {
-  background-image: url(../../publicaciones/nuevoserhumano/Multimedia/images/nuevoserhumano.png);
+  background-image: url(../publicaciones/nuevoserhumano/Multimedia/images/nuevoserhumano.png);
 }
 #nuevoserhumano h2 {
   padding: 140px;
 }
 #nuevoserhumano:hover {
-  background-image: url(../../publicaciones/nuevoserhumano/Multimedia/images/nuevoserhumano1.jpg);
+  background-image: url(../publicaciones/nuevoserhumano/Multimedia/images/nuevoserhumano1.jpg);
 }
 
 /*# sourceMappingURL=style.css.map */
