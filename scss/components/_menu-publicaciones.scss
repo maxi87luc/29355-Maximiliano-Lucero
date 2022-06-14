@@ -1,0 +1,44 @@
+@import "../base/extends";
+
+#glandulatimo {
+    width: 100%;
+    background-image: url(../../publicaciones/glandulatimo/multimedia/images/publicacion1.jpg);
+    @extend %publis ;
+    h2 {
+        padding: 300px;
+    }
+    &:hover {
+        background-image: url(../../publicaciones/glandulatimo/multimedia/images/publicacion1-2.jpg);
+    }
+} 
+
+
+
+
+
+
+#caminoacasa {    
+    background-image: url(../../publicaciones/tribuafrica/multimedia/images/tribuafrica.jpg);
+    @extend %publis ;
+    h2 {
+        padding: 140px;        
+    }
+    &:hover {
+        background-image: url(../../publicaciones/tribuafrica/multimedia/images/tribuafrica1.jpg);
+    }
+} 
+
+
+
+
+#nuevoserhumano {
+    
+    background-image: url(../../publicaciones/nuevoserhumano/Multimedia/images/nuevoserhumano.png);
+    @extend %publis ;
+    h2 {
+        padding: 140px;
+    }
+    &:hover {
+        background-image: url(../../publicaciones/nuevoserhumano/Multimedia/images/nuevoserhumano1.jpg);
+    }
+} 

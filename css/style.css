@@ -1,4 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Macondo&display=swap");
+#nuevoserhumano, #caminoacasa, #glandulatimo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 1s;
+}
+
+/*
+@mixin publis($valor) {
+
+
+    border: $valor;
+    padding: $valor;
+    border-radius: $valor;
+
+}
+.adios-maria {
+    @include tiro(1px solid black)
+}
+*/
 body {
   background-color: #EBE3E0;
 }
@@ -57,7 +76,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  background-image: url(../../multimedia/images/headernuevo2.jpg);
+  background-image: url("../../multimedia/images/headernuevo2.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   height: 30%;
@@ -66,7 +85,7 @@ header {
 
 /*Menu navegable*/
 .nav {
-  margin-top: 9%;
+  margin-top: 8%;
 }
 
 .nav-item {
@@ -114,12 +133,15 @@ header {
   margin-top: 250px;
 }
 
-#glandulatimo {
-  width: 100%;
-  background-image: url(../../publicaciones/glandulatimo/multimedia/images/publicacion1.jpg);
+#nuevoserhumano, #caminoacasa, #glandulatimo {
   background-repeat: no-repeat;
   background-size: cover;
   transition: all 1s;
+}
+
+#glandulatimo {
+  width: 100%;
+  background-image: url(../../publicaciones/glandulatimo/multimedia/images/publicacion1.jpg);
 }
 #glandulatimo h2 {
   padding: 300px;
@@ -130,9 +152,6 @@ header {
 
 #caminoacasa {
   background-image: url(../../publicaciones/tribuafrica/multimedia/images/tribuafrica.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  transition: all 1s;
 }
 #caminoacasa h2 {
   padding: 140px;
@@ -143,12 +162,9 @@ header {
 
 #nuevoserhumano {
   background-image: url(../../publicaciones/nuevoserhumano/Multimedia/images/nuevoserhumano.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  transition: all 1s;
 }
 #nuevoserhumano h2 {
-  padding: 150px;
+  padding: 140px;
 }
 #nuevoserhumano:hover {
   background-image: url(../../publicaciones/nuevoserhumano/Multimedia/images/nuevoserhumano1.jpg);
