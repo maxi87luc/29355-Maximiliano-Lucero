@@ -42,4 +42,8 @@
     color: black;
     background-color: nth($colores, 2);
     border: none;
+    &:hover {
+        background-color: nth($colores, 1) ;
+    }
+    
 }
