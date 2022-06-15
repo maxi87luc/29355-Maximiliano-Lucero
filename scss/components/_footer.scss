@@ -2,6 +2,10 @@
 
 footer {
     background-image: url(../multimedia/images/footernuevo.jpg);
+    @media screen and (max-width: 768px) {        
+        background-image: url(../multimedia/images/footersm.jpg);
+
+    }
     background-repeat: no-repeat;
     background-size: 100%;
     padding-bottom: 8%;
@@ -11,7 +15,14 @@ footer {
         list-style-type: none;
     display: inline-block;
     margin-left: 20px;  
-    margin-top: 20px; 
+    margin-top: 20px;
+    @media screen and (max-width: 768px) {
+        margin-left: 10px;  
+        margin-top: 10px;     
+        
+
+    }
+     
     }
     img {
         transition: all 1s;

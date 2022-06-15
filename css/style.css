@@ -41,11 +41,22 @@ footer {
   height: 25%;
   width: 100%;
 }
+@media screen and (max-width: 768px) {
+  footer {
+    background-image: url(../multimedia/images/footersm.jpg);
+  }
+}
 footer li {
   list-style-type: none;
   display: inline-block;
   margin-left: 20px;
   margin-top: 20px;
+}
+@media screen and (max-width: 768px) {
+  footer li {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
 }
 footer img {
   transition: all 1s;
@@ -68,6 +79,11 @@ header {
   background-size: 100%;
   height: 30%;
   z-index: 2;
+}
+@media screen and (max-width: 768px) {
+  header {
+    background-image: url(../multimedia/images/headersm.jpg);
+  }
 }
 
 /*Menu navegable*/
@@ -95,6 +111,11 @@ header {
   display: none;
   margin-top: 9%;
 }
+@media screen and (max-width: 768px) {
+  .nav-sm {
+    display: flex;
+  }
+}
 
 .offcanvas-body {
   background-color: rgba(197, 199, 209, 0.655);
@@ -104,20 +125,27 @@ header {
   background-color: #F0C62F;
 }
 
+.navbar-toggler {
+  width: 80px;
+  height: 50px;
+}
+
 .offcanvas-header {
   background-color: #EBE3E0;
 }
 
 @media screen and (max-width: 768px) {
-  .nav-sm {
-    display: flex;
-  }
   .nav-md {
     display: none;
   }
 }
 .main {
-  margin-top: 250px;
+  margin-top: 14%;
+}
+@media screen and (max-width: 768px) {
+  .main {
+    margin-top: 25%;
+  }
 }
 
 #nuevoserhumano, #caminoacasa, #glandulatimo {
@@ -126,35 +154,30 @@ header {
   transition: all 1s;
 }
 
-#glandulatimo {
+#glandulatimo img {
   width: 100%;
-  background-image: url(../publicaciones/glandulatimo/multimedia/images/publicacion1.jpg);
-}
-#glandulatimo h2 {
-  padding: 300px;
-}
-#glandulatimo:hover {
-  background-image: url(../publicaciones/glandulatimo/multimedia/images/publicacion1-2.jpg);
 }
 
-#caminoacasa {
-  background-image: url(../publicaciones/tribuafrica/multimedia/images/tribuafrica.jpg);
-}
-#caminoacasa h2 {
-  padding: 140px;
-}
-#caminoacasa:hover {
-  background-image: url(../publicaciones/tribuafrica/multimedia/images/tribuafrica1.jpg);
+#caminoacasa img {
+  width: 100%;
 }
 
-#nuevoserhumano {
-  background-image: url(../publicaciones/nuevoserhumano/Multimedia/images/nuevoserhumano.png);
+#nuevoserhumano img {
+  width: 100%;
 }
-#nuevoserhumano h2 {
-  padding: 140px;
+
+.card-body {
+  background-color: rgba(197, 199, 209, 0.655);
 }
-#nuevoserhumano:hover {
-  background-image: url(../publicaciones/nuevoserhumano/Multimedia/images/nuevoserhumano1.jpg);
+
+.btn {
+  color: black;
+  background-color: #F0C62F;
+  border: none;
+}
+
+.disclaimer {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */

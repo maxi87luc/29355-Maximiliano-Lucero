@@ -1,44 +1,45 @@
 @import "../base/extends";
 
 #glandulatimo {
-    width: 100%;
-    background-image: url(../publicaciones/glandulatimo/multimedia/images/publicacion1.jpg);
+    img {
+        width: 100%;
+    }
+
     @extend %publis ;
-    h2 {
-        padding: 300px;
-    }
-    &:hover {
-        background-image: url(../publicaciones/glandulatimo/multimedia/images/publicacion1-2.jpg);
-    }
-} 
+}
 
 
 
 
 
 
-#caminoacasa {    
-    background-image: url(../publicaciones/tribuafrica/multimedia/images/tribuafrica.jpg);
-    @extend %publis ;
-    h2 {
-        padding: 140px;        
-    }
-    &:hover {
-        background-image: url(../publicaciones/tribuafrica/multimedia/images/tribuafrica1.jpg);
-    }
-} 
 
-
-
-
-#nuevoserhumano {
+#caminoacasa {  
+    img {
+        width: 100%;
+    }  
     
-    background-image: url(../publicaciones/nuevoserhumano/Multimedia/images/nuevoserhumano.png);
     @extend %publis ;
-    h2 {
-        padding: 140px;
+
+}
+
+
+
+#nuevoserhumano {   
+    img {
+        width: 100%;
     }
-    &:hover {
-        background-image: url(../publicaciones/nuevoserhumano/Multimedia/images/nuevoserhumano1.jpg);
-    }
+    
+    @extend %publis ;  
+    
+    
 } 
+
+.card-body {
+    background-color: nth($colores, 3); 
+}
+.btn {
+    color: black;
+    background-color: nth($colores, 2);
+    border: none;
+}
