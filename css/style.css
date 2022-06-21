@@ -36,7 +36,7 @@ p {
 footer {
   background-image: url(../multimedia/images/footernuevo.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   padding-bottom: 8%;
   height: 25%;
   width: 100%;
