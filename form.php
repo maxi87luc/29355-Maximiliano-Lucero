@@ -3,7 +3,8 @@
 $nombre = $_POST ['nombre'] ;
 $email = $_POST ['e-mail'] ;
 $telefono = $_POST ['telefono'] ;
-$textarea = $_POST ['textarea'] ;
+$mensaje = $_POST ['textarea'] ;
+$header .= "content_type: text/plain";
 
 $mensaje = "Mensaje" . $textarea . ",/r/n";
 $mensaje .= "Este mensaje fue enviado por " . $nombre . ",/r/n";
