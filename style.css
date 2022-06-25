@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Macondo&display=swap");
+#nuevoserhumano, #caminoacasa, #glandulatimo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 1s;
+}
+
+body {
+  background-color: #EBE3E0;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Macondo", cursive;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Macondo", cursive;
+}
+
+h3 {
+  font-family: "Macondo", cursive;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-family: "Macondo", cursive;
+}
+
+p {
+  font-family: "Macondo", cursive;
+  font-size: 1.5em;
+}
+
+footer {
+  background-image: url(../multimedia/images/footernuevo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 8%;
+  height: 25%;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  footer {
+    background-image: url(../multimedia/images/footersm.jpg);
+  }
+}
+footer li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 768px) {
+  footer li {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+}
+footer img {
+  transition: all 1s;
+}
+footer img:hover {
+  transform: scale(1.5);
+}
+
+.logos {
+  width: 50px;
+  margin: 2px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-image: url("../multimedia/images/headernuevo2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30%;
+  z-index: 2;
+}
+@media screen and (max-width: 768px) {
+  header {
+    background-image: url(../multimedia/images/headersm.jpg);
+  }
+}
+
+/*Menu navegable*/
+.nav {
+  margin-top: 8%;
+}
+
+.nav-item {
+  background-color: rgba(197, 199, 209, 0.655);
+  transition: all 1s;
+  font-size: 1.5em;
+}
+.nav-item:hover {
+  background-color: #F0C62F;
+}
+
+.nav-link {
+  font-family: "Macondo", cursive;
+  color: black;
+  transition: all 1s;
+  padding: 10px;
+}
+
+.nav-sm {
+  display: none;
+  margin-top: 9%;
+}
+@media screen and (max-width: 768px) {
+  .nav-sm {
+    display: flex;
+  }
+}
+
+.offcanvas-body {
+  background-color: rgba(197, 199, 209, 0.655);
+}
+
+.btn-close {
+  background-color: #F0C62F;
+}
+
+.navbar-toggler {
+  width: 80px;
+  height: 50px;
+}
+
+.offcanvas-header {
+  background-color: #EBE3E0;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-md {
+    display: none;
+  }
+}
+.main {
+  margin-top: 14%;
+}
+@media screen and (max-width: 768px) {
+  .main {
+    margin-top: 25%;
+  }
+}
+
+#nuevoserhumano, #caminoacasa, #glandulatimo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 1s;
+}
+
+#glandulatimo img {
+  width: 100%;
+}
+
+#caminoacasa img {
+  width: 100%;
+}
+
+#nuevoserhumano img {
+  width: 100%;
+}
+
+.card-body {
+  background-color: rgba(197, 199, 209, 0.655);
+}
+
+.btn {
+  color: black;
+  background-color: #F0C62F;
+  border: none;
+}
+.btn:hover {
+  background-color: #EBE3E0;
+}
+
+.disclaimer {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
