@@ -15,7 +15,7 @@ $asunto = "Contacto desde Web Gabinete Iluminado";
 
 mail($para, $asunto, utf8_decode($mensaje), $header);
 
-header('location:index.html')
+header('location:index.html');
 
 ?>
 
